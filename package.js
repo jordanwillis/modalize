@@ -1,6 +1,6 @@
 Package.describe({
   name: "msolters:modalize",
-  summary: "Seamless, reactive template-based modals for Materialize.",
+  summary: "Seamless, reactive template-based modals for Materialize. (Local Version!)",
   version: "1.0.1",
   git: "https://github.com/msolters/modalize.git"
 });
@@ -17,7 +17,7 @@ Package.onUse(function(api, where) {
   ], 'client');
 
   api.use([
-    'materialize:materialize@0.97.0',
+    'poetic:materialize-scss@1.97.6_1',
     'coffeescript'
   ], ["client"]);
 
